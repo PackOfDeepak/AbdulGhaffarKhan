@@ -1,0 +1,98 @@
+h1 {
+    font-family: cursive;
+    margin-bottom: 80px;
+    margin-top: 50px;
+
+}
+.khanlist {
+    font-size: 20px;
+    font-family:cursive;
+    margin-left:20px;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+#li1 {
+   background-color: firebrick; 
+}
+#li2 {
+    background-color:steelblue; 
+ }
+ #li3 {
+    background-color: crimson;
+ }
+ #li4 {
+    background-color: steelblue;
+ }
+ #li5 {
+    background-color: firebrick;
+ }
+ #li6 {
+    background-color: steelblue;
+ }
+ #li7 {
+    background-color: firebrick;
+ }
+h1 {
+    font-family: cursive;
+    
+
+}
+h3 {
+    font-family: cursive;
+    
+
+}
+
+body {
+    background: -webkit-linear-gradient(left,springgreen,orange);
+} 
+#birthplacepoint {
+    position: absolute;
+    top:230px;
+    left:600px;
+}
+.name {
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    left:20px;
+    
+    
+    
+   }
+   #life {
+       color:black;
+       font-size: 20px;
+       font-family: cursive;
+       text-decoration: none;
+    position: absolute;;
+    top:10px;
+    right:350px;
+   }
+   #wars {
+    text-decoration: none;
+    font-size: 20px;
+       font-family: cursive;
+    color:black;
+    position: absolute;
+    top:10px;
+    right:250px;
+   }
+   #allies {
+    text-decoration: none;
+    font-size: 20px;
+       font-family: cursive;
+    color:black;
+    position: absolute;
+    top:10px;
+    right:50px;
+   }
+   .header {
+       
+       background-color: fuchsia;
+       display:flex;
+       justify-content: space-between;
+       flex-direction: column;
+    
+    }

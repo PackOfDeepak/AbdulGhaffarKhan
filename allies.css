@@ -1,0 +1,632 @@
+h1 {
+    font-family: cursive;
+    
+
+}
+.thealert {
+    font-family: cursive;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:#2d333f ;
+}
+
+.btn_grp .btn{
+    width:225px;
+    height:50px;
+    background: #fff;
+    margin:0 10px;
+    border-radius:3px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size :14px;
+
+}  
+.btn_grp .btn.btn_rand,
+.alert_wrapper .alert_item.alert_rand{
+    background: tomato;
+    color: slateblue;
+
+}
+.btn_grp .btn.btn_russia,
+.alert_wrapper .alert_item.alert_russia{
+    background: darkorange;
+    color:#4480ae;
+
+}
+.btn_grp .btn.btn_afghan,
+.alert_wrapper .alert_item.alert_afghan{
+    background: darkblue;
+    color: darkgoldenrod;
+
+}
+.btn_grp .btn.btn_albania,
+.alert_wrapper .alert_item.alert_albania{
+    background: springgreen;
+    color: orangered;
+
+}
+.btn_grp .btn.btn_algeria,
+.alert_wrapper .alert_item.alert_algeria{
+    background: cornflowerblue;
+    color: chartreuse;
+
+}
+.btn_grp .btn.btn_andorra,
+.alert_wrapper .alert_item.alert_andorra{
+    background: darkorchid;
+    color: gold;
+
+}
+.btn_grp .btn.btn_antigua,
+.alert_wrapper .alert_item.alert_antigua{
+    background: fuchsia;
+    color: gold;
+
+}
+.btn_grp .btn.btn_argentina,
+.alert_wrapper .alert_item.alert_argentina{
+    background: midnightblue;
+    color: gold;
+
+}
+.btn_grp .btn.btn_armenia,
+.alert_wrapper .alert_item.alert_armenia{
+    background: slateblue;
+    color: gold;
+
+}
+.btn_grp .btn.btn_australia,
+.alert_wrapper .alert_item.alert_australia{
+    background: mediumpurple;
+    color: gold;
+
+}
+.btn_grp .btn.btn_azer,
+.alert_wrapper .alert_item.alert_azer{
+    background: cadetblue;
+    color: gold;
+
+}
+.btn_grp .btn.btn_rand{
+    position: absolute;
+    top:92%;
+    left:15%;
+    width:170px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.btn_grp .btn.btn_russia{
+    position: absolute;
+    top:75%;
+    left:60%;
+    width:400px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+
+.btn_grp .btn.btn_afghan{
+    font-size:3px;
+    position: absolute;
+    top:97%;
+    left:64%;
+    width:40px;
+    height:5px;
+    text-align:center;
+    line-height: 5px;
+}
+
+.btn_grp .btn.btn_albania{
+    font-size:2px;
+    position: absolute;
+    top:92.7%;
+    left:52.5%;
+    width:10px;
+    height:5px;
+    text-align:center;
+    line-height: 5px;
+}
+.btn_grp .btn.btn_algeria{
+    font-size:2px;
+    position: absolute;
+    top:101.3%;
+    left:47%;
+    width:30px;
+    height:5px;
+    text-align:center;
+    line-height: 5px;
+}
+.btn_grp .btn.btn_andorra{
+    font-size:0.0001px;    
+    position: absolute;
+    top:92%;
+    left:47.5%;
+    width:5px;
+    height:5px;
+    text-align:center;
+    line-height: 5px;
+}
+.btn_grp .btn.btn_antigua{
+    font-size:0.0001px;
+    position: absolute;
+    top:109.5%;
+    left:31%;
+    width:5px;
+    height:5px;
+    text-align:center;
+    line-height: 5px;
+}
+.btn_grp .btn.btn_argentina{
+    font-size:5px;
+    position: absolute;
+    top:138%;
+    left:29%;
+    width:48px;
+    height:10px;
+    text-align:center;
+    line-height: 10px;
+}
+.btn_grp .btn.btn_armenia{
+    font-size:0.01px;
+    position: absolute;
+    top:92.3%;
+    left:59.2%;
+    width:5px;
+    height:10px;
+    text-align:center;
+    line-height: 10px;
+}
+.btn_grp .btn.btn_australia{
+    font-size:10px;
+    position: absolute;
+    top:131%;
+    left:79%;
+    width:115px;
+    height:10px;
+    text-align:center;
+    line-height: 10px;
+}
+.btn_grp .btn.btn_azer{
+    font-size:0.01px;
+    position: absolute;
+    top:92.3%;
+    left:59.7%;
+    width:5px;
+    height:10px;
+    text-align:center;
+    line-height: 10px;
+}
+
+.btn_grp .btn.btn_rand:hover {
+    background: sienna;
+    color:steelblue;
+
+}
+.btn_grp .btn.btn_russia:hover {
+    background: darkgoldenrod;
+    color: rebeccapurple;
+
+}
+.btn_grp .btn.btn_afghan:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_albania:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_algeria:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_andorra:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_antigua:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_argentina:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_armenia:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_australia:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.btn_grp .btn.btn_azer:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index:999;
+    visibility: hidden;
+}
+
+.alert_backdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: #2d333f;
+    opacity:0.9;
+    z-index:2;
+}
+.alert_wrapper .alert_item {
+    z-index: 3;
+    position: fixed;
+    top:-100%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    background:#fff;
+    padding:25px 50px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    align-items:center;
+}
+.alert_wrapper .alert_item .data{
+    margin:0 50px;
+}
+.alert_wrapper .alert_item .data .title{
+    font-size:18px;
+    margin-bottom:5px;
+}
+.alert_wrapper .alert_item .data span{
+    font-weight:700;
+}
+.alert_wrapper .alert_item .data .sub{
+    font-size:14px;
+    font-weight:100;
+}
+.alert_wrapper .alert_item .icon{
+    font-size:32px;
+}
+.alert_wrapper .alert_item .close{
+    cursor: pointer;
+}
+.alert_wrapper .alert_item.alert_rand .close:hover{
+    
+    color:orangered;
+
+}
+.alert_wrapper .alert_item.alert_russia .close:hover{
+    
+    color:orangered;
+
+}
+.alert_wrapper .alert_item.alert_afghan .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_albania .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_algeria .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_andorra .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_antigua .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_argentina .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_armenia .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_australia .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.alert_wrapper .alert_item.alert_can .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.btn_grp .btn.btn_can,
+.alert_wrapper .alert_item.alert_can{
+    background: mediumpurple;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_can{
+    position: absolute;
+    top:78%;
+    left:15%;
+    width:180px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.btn_grp .btn.btn_can:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_can .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.btn_grp .btn.btn_brazil,
+.alert_wrapper .alert_item.alert_brazil{
+    background: royalblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_brazil{
+    position: absolute;
+    top:120%;
+    left:30%;
+    width:90px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.btn_grp .btn.btn_brazil:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_brazil .close:hover{
+    
+    color:darkgoldenrod;
+
+}
+.btn_grp .btn.btn_china,
+.alert_wrapper .alert_item.alert_china{
+    background: steelblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_china{
+    position: absolute;
+    top:95%;
+    left:69.5%;
+    width:128px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.btn_grp .btn.btn.btn_china:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_china .close:hover{
+    
+    color:darkgoldenrod;
+}
+.btn_grp .btn.btn_mongol,
+.alert_wrapper .alert_item.alert_mongol{
+    background: dodgerblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_mongol{
+    position: absolute;
+    top:87%;
+    left:71%;
+    width:118px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+}
+.btn_grp .btn.btn.btn_mongol:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_mongol .close:hover{
+    
+    color:darkgoldenrod;
+}
+
+.btn_grp .btn.btn_kazak,
+.alert_wrapper .alert_item.alert_kazak{
+    background: mediumslateblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_kazak{
+    position: absolute;
+    top:87%;
+    left:61.5%;
+    width:118px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+}
+.btn_grp .btn.btn.btn_kazak:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_kazak .close:hover{
+    
+    color:darkgoldenrod;
+}
+.btn_grp .btn.btn_sa,
+.alert_wrapper .alert_item.alert_sa{
+    background: cadetblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_sa{
+    font-size:2px;
+    position: absolute;
+    top:101%;
+    left:58%;
+    width:40px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+}
+.btn_grp .btn.btn.btn_sa:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_sa .close:hover{
+    
+    color:darkgoldenrod;
+}
+.btn_grp .btn.btn_iran,
+.alert_wrapper .alert_item.alert_iran{
+    background: cadetblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_iran{
+    font-size:2px;
+    position: absolute;
+    top:97%;
+    left:61%;
+    width:40px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+}
+.btn_grp .btn.btn.btn_iran:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_iran .close:hover{
+    
+    color:darkgoldenrod;
+}
+.btn_grp .btn.btn_iraq,
+.alert_wrapper .alert_item.alert_iraq{
+    background: cadetblue;
+    color:gold
+
+}
+
+.btn_grp .btn.btn_iraq{
+    font-size:2px;
+    position: absolute;
+    top:97%;
+    left:58%;
+    width:30px;
+    height:20px;
+    text-align:center;
+    line-height: 20px;
+}
+.btn_grp .btn.btn.btn_iraq:hover {
+    background: darkmagenta;
+    color: darkorange;
+
+}
+.alert_wrapper .alert_item.alert_iraq .close:hover{
+    
+    color:darkgoldenrod;
+}
+.alert_wrapper.active{
+    visibility: visible;
+}
+.alert_wrapper.active .alert_item{
+    top:-100%;
+    
+}
+
+body {
+    background: -webkit-linear-gradient(left,springgreen,orange);
+} 
+
+
+.name {
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    left:20px;
+    
+    
+    
+   }
+   #life {
+       color:black;
+       font-size: 20px;
+       font-family: cursive;
+       text-decoration: none;
+    position: absolute;;
+    top:10px;
+    right:350px;
+   }
+   #wars {
+    text-decoration: none;
+    font-size: 20px;
+       font-family: cursive;
+    color:black;
+    position: absolute;
+    top:10px;
+    right:250px;
+   }
+   #allies {
+    text-decoration: none;
+    font-size: 20px;
+       font-family: cursive;
+    color:black;
+    position: absolute;
+    top:10px;
+    right:50px;
+   }
+   .header {
+       
+       background-color: fuchsia;
+       display:flex;
+       justify-content: space-between;
+       flex-direction: column;
+    
+    }

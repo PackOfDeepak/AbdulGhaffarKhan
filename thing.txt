@@ -1,0 +1,3 @@
+ <center> <img src = "indiapakistanmap.jpg" width = "700"></center>
+  <a href = "birthplace.html"> <img id = "birthplacepoint" src = "pointonmap-removebg-preview (1).png" width = "30"></a>
+  <a href = "deathpoint.html"> <img id = "deathpoint" src = "pointonmap-removebg-preview (1).png" width = "30"></a>

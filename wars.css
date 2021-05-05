@@ -1,0 +1,199 @@
+h1 {
+    font-family: cursive;
+    
+
+}
+body {
+    background: -webkit-linear-gradient(left,springgreen,orange);
+} 
+.wrapper{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.btn_grp .btn.btn{
+    width:300px;
+    height:50px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius:3px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size :14px;
+
+}  
+.btn_grp .btn.btn_rand,
+.alert_wrapper .alert_item.alert_rand{
+    background: orange;
+    color:#4480ae;
+
+}
+
+.btn_grp .btn.btn_rand:hover {
+    background: orangered;
+    color: rebeccapurple;
+
+}
+.alert_wrapper .alert_item.alert_rand .close:hover{
+    
+    color:orangered;
+
+}
+.btn_grp .btn.btn_fkw,
+.alert_wrapper .alert_item.alert_fkw{
+    background: royalblue;
+    color: darkred;
+
+}
+
+.btn_grp .btn.btn_fkw:hover {
+    background: orangered;
+    color: rebeccapurple;
+
+}
+.btn_grp .btn.btn_ip65,
+.alert_wrapper .alert_item.alert_ip65{
+    background: gold;
+    color: forestgreen;
+
+}
+
+.btn_grp .btn.btn_ip65:hover {
+    background: orangered;
+    color: rebeccapurple;
+
+}
+.btn_grp .btn.btn_ip71,
+.alert_wrapper .alert_item.alert_ip71{
+    background: cadetblue;
+    color: forestgreen;
+
+}
+
+.btn_grp .btn.btn_ip71:hover {
+    background: orangered;
+    color: rebeccapurple;
+
+}
+.btn_grp .btn.btn_ip99,
+.alert_wrapper .alert_item.alert_ip99{
+    background: peru;
+    color: forestgreen;
+
+}
+
+.btn_grp .btn.btn_ip99:hover {
+    background: orangered;
+    color: rebeccapurple;
+
+}
+.alert_wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index:999;
+    visibility: hidden;
+}
+
+.alert_backdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: #2d333f;
+    opacity:0.9;
+    z-index:2;
+}
+.alert_wrapper .alert_item {
+    z-index: 3;
+    position: fixed;
+    top:-100%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    background:#fff;
+    padding:25px 50px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    align-items:center;
+}
+.alert_wrapper .alert_item .data{
+    margin:0 50px;
+}
+.alert_wrapper .alert_item .data .title{
+    font-size:18px;
+    margin-bottom:5px;
+    font-family: cursive;
+}
+.alert_wrapper .alert_item .data span{
+    font-weight:700;
+}
+.alert_wrapper .alert_item .data .sub{
+    font-size:14px;
+    font-weight:100;
+    font-family: cursive;
+}
+.alert_wrapper .alert_item .icon{
+    font-size:32px;
+}
+.alert_wrapper .alert_item .close{
+    cursor: pointer;
+}
+
+.alert_wrapper.active{
+    visibility: visible;
+}
+.alert_wrapper.active .alert_item{
+    top:-100%;
+    
+}
+.name {
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    left:20px;
+    
+    
+    
+   }
+   #life {
+       color:black;
+       font-size: 20px;
+       font-family: cursive;
+       text-decoration: none;
+    position: absolute;;
+    top:10px;
+    right:350px;
+   }
+   #wars {
+    text-decoration: none;
+    font-size: 20px;
+       font-family: cursive;
+    color:black;
+    position: absolute;
+    top:10px;
+    right:250px;
+   }
+   #allies {
+    text-decoration: none;
+    font-size: 20px;
+       font-family: cursive;
+    color:black;
+    position: absolute;
+    top:10px;
+    right:50px;
+   }
+   .header {
+       
+       background-color: fuchsia;
+       display:flex;
+       justify-content: space-between;
+       flex-direction: column;
+    
+    }
